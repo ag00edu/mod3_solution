@@ -1,0 +1,107 @@
+body {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    min-width: 320px;
+}
+
+/****** .navbar *******/
+
+.navbar {
+    background-color: #999999;
+    border-bottom: 2px solid #000000;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    padding: 0;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler .icon-bar {
+    margin: auto;
+    display: block;
+    width: 33px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #000000;
+}
+
+.navbar-light .navbar-toggler .icon-bar + .icon-bar {
+    margin-top: 6px;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+    border-color: #dcdcdc;
+    color: #dcdcdc;
+}
+
+.navbar-light  .navbar-toggler:focus .icon-bar {
+    background-color: #dcdcdc;
+}
+
+.navbar-light  .navbar-toggler.collapsed {
+    border-color: #000000;
+    color: #000000;
+}
+.navbar-light  .navbar-toggler.collapsed .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-light .navbar-toggler:hover {
+    border-color: #666666;
+    color: #666666;
+}
+
+.navbar-light .navbar-toggler:hover .icon-bar {
+    background-color: #666666;
+}
+
+.navbar-light .navbar-collapse {
+    margin: 8px -12px 0 -12px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.navbar-light .nav-link {
+    text-align: center;
+}
+
+.navbar-light hr {
+    margin: 0 auto;
+    width: 95%;
+}
+
+@media (min-width: 767px) {
+    .navbar-light .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-light .navbar-collapse.collapse  {
+        display: none !important;
+    }
+}
+
+h1 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.row section {
+    flex-shrink: unset;
+    margin-bottom: 20px;
+}
+
+.row div {
+    background-color: #999999;
+}
